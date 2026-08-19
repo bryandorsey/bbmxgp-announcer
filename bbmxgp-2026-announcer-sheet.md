@@ -34,6 +34,7 @@ Big Bear MX Grand Prix by O'Neal · Bear Mountain, Big Bear Lake CA · Aug 19–
 - Six years of planning between the two
 - Promoters run 23 events a year, 20+ years working together
 - Site: BBMXGP.com
+- **Live timing: [resultsmx.com/swapexp](https://resultsmx.com/swapexp)**
 - Hashtag: #bbmxgp26
 - Tagline: "Where moto meets the mountain"
 
@@ -255,7 +256,6 @@ Oldest motocross apparel company in America. Jim O'Neal was racing TTs and deser
 - [ ] Thursday practice session times
 - [ ] Daily running order with class times
 - [ ] Lap times ... pull live off timing, nothing published
-- [ ] Live timing site
 - [ ] e-MTB race day ... Thursday or Friday
 - [ ] Confirm EMT Racing on site
 - [ ] Awards and podium times
