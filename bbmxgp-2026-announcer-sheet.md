@@ -199,7 +199,7 @@ Saturday only. Free with facility wristband.
 - **Big Bear Mountain Resort** ... host venue. Parent of Bear Mountain and Snow Summit
 - **Guts Racing** ... seats, seat covers, seat foam. Ventura CA
 - **Quinn Company** ... Caterpillar dealer. Heavy equipment. "Quinn Company, your Cat dealer"
-- **Mother F Foods** ... whole food meal bars. Founded by **Dr. Cheryl Bothwell**, doctor of clinical nutrition and registered dietitian, 20+ years treating patients. Organic honey sweetened, no fillers, 97 grams so nearly double a normal bar
+- **Mother F Foods** ... **Official Whole Food Bar of the Big Bear MX Grand Prix**. Their line: "the mother of all bars." Founded by **Dr. Cheryl Bothwell**, doctor of clinical nutrition and registered dietitian, 20+ years treating patients. Organic honey sweetened, no fillers, 97 grams so nearly double a normal bar. @motherf_foods
 - **Airoh USA** ... Italian helmet brand
 - **ARC Levers** ... unbreakable folding clutch and brake levers. Say "A-R-C"
 - **BC Goggle Co** ... owned by **Brinley Carmody**, a 10-year-old girl. "Building the Future, One Rider at a Time." **BC SuperMag** magnetic interchangeable lens system, swap lenses instantly without removing the goggle. Moto, MTB and snow. Also polarized sunglasses, chains, custom graphic lenses you design yourself, apparel. **Bringing shade and seating to the top of the mountain Saturday**
