@@ -131,7 +131,7 @@ Order runs Beginner → Novice → Amateur → Expert.
 
 - Roughly 3 miles. Ski runs and fire roads. Near 8,000 ft
 - MX section with jumps and berms. Finish line jump under an SX-style overhead truss
-- **Fout's Forest** ... singletrack section, longer this year. Built by MXA test rider Fout (@atchafout), named for him
+- **Fout's Forest** ... singletrack section, longer this year. Built by and named for **Josh Fout**, MXA's endurance test rider and an off-road racer who's gone from Saturdays at Glen Helen to the Gotland Grand National in Sweden (@atchafout)
 - New for 2026: shipping container jump in the base area, slowed-down start, faster sections, built-up berms, pro-only section designed for viewing
 - Snowmaking equipment every 100 ft waters the course. Dust stays down
 - Steep and abrupt elevation. **There are rocks.** Promoters warned riders directly
@@ -233,7 +233,7 @@ Oldest motocross apparel company in America. Jim O'Neal was racing TTs and deser
 
 - **The Nielsens** ... hosting the booth out of their office. He's racing. Thank them early and often
 - **Team SRD track crew** ... building and dialing the course all week
-- **Fout** ... built Fout's Forest
+- **Josh Fout** ... built Fout's Forest
 - **Aaron Cooke** ... Swapmoto Race Series
 - **Donn Maeda** ... Swapmoto Live
 - **Kurt Caselli Foundation** ... say the full name, never the initials
