@@ -258,5 +258,3 @@ Oldest motocross apparel company in America. Jim O'Neal was racing TTs and deser
 - [ ] Lap times ... pull live off timing, nothing published
 - [ ] e-MTB race day ... Thursday or Friday
 - [ ] Confirm EMT Racing on site
-- [ ] Awards and podium times
-- [ ] Rider pronunciations: Aeck, DeMartile
