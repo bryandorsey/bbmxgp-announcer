@@ -175,7 +175,7 @@ Saturday only. Free with facility wristband.
 - Free Big Bear Trolley also runs
 - **No pets, mountain bikes or e-bikes on the deck**
 - No overnight parking on site
-- Merch sold out early last year. Buy it early
+- **Merch plug.** Big Bear MX Grand Prix 2026 event gear, plus O'Neal and Swapmoto Race Series. It sold out early last year. Buy it early, don't wait til Sunday
 - 20+ vendors and sponsors on the row
 - We're guests in this town. Patience with staff and locals. Don't leave trash
 
