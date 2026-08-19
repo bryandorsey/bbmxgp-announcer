@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f5f1">
+<title>BBMXGP 2026 ... Announcer Cheat Sheet</title>
+<style>
+:root{
+  --bg:#f7f5f1; --panel:#fffefb; --ink:#14130f; --ink2:#4a4740; --line:#ddd8cd;
+  --accent:#9a2f14; --gap:#8a5100; --gapbg:#fcf1dc; --shadow:0 1px 0 rgba(0,0,0,.05);
+}
+html[data-theme="dark"]{
+  --bg:#101010; --panel:#191817; --ink:#f0ede6; --ink2:#a8a49a; --line:#302e2b;
+  --accent:#ff8a5c; --gap:#f0b25c; --gapbg:#2c2313; --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:400 17.5px/1.55 ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px 96px}
+
+/* ---- masthead ---- */
+header{padding:26px 0 14px}
+h1{font-size:26px;line-height:1.2;letter-spacing:-.01em;margin:0 0 6px;font-weight:800}
+.sub{color:var(--ink2);font-size:15px;margin:0}
+.theme{
+  position:absolute;top:22px;right:16px;width:42px;height:42px;border-radius:999px;
+  border:1px solid var(--line);background:var(--panel);color:var(--ink);
+  font-size:19px;line-height:1;cursor:pointer;display:grid;place-items:center;
+}
+.theme:active{transform:scale(.94)}
+
+/* ---- sticky search ---- */
+.stick{position:sticky;top:0;z-index:20;background:var(--bg);
+  padding:10px 18px 12px;margin:0 -18px;border-bottom:1px solid var(--line)}
+#q{
+  width:100%;height:48px;padding:0 14px;border-radius:10px;
+  border:1px solid var(--line);background:var(--panel);color:var(--ink);
+  font-size:17px;font-family:inherit;box-shadow:var(--shadow)
+}
+#q:focus{outline:2px solid var(--accent);outline-offset:-1px}
+#q::placeholder{color:var(--ink2)}
+
+/* ---- table of contents ---- */
+#toc{display:block;padding:14px 0 4px}
+#toc a{
+  display:flex;align-items:center;gap:12px;padding:13px 2px;
+  border-bottom:1px solid var(--line);color:var(--ink);
+  text-decoration:none;font-weight:600;font-size:17px
+}
+#toc a:last-child{border-bottom:0}
+#toc .n{
+  flex:0 0 26px;text-align:right;color:var(--ink2);
+  font-size:14px;font-weight:700;font-variant-numeric:tabular-nums
+}
+
+/* ---- content ---- */
+section{padding:30px 0 4px;border-top:1px solid var(--line)}
+section:first-of-type{border-top:0}
+h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);
+  margin:0 0 14px;font-weight:800;scroll-margin-top:118px}
+p{margin:0 0 12px}
+p.lead{font-weight:700;font-size:19px;margin:22px 0 8px}
+p.lead:first-of-type{margin-top:0}
+ul{list-style:none;margin:0 0 14px;padding:0}
+li{position:relative;padding:7px 0 7px 18px;border-bottom:1px solid var(--line)}
+li:last-child{border-bottom:0}
+li::before{content:"";position:absolute;left:2px;top:16px;width:5px;height:5px;
+  border-radius:50%;background:var(--ink2);opacity:.55}
+strong{font-weight:700}
+a{color:var(--accent)}
+.sep{color:var(--ink2);padding:0 2px}
+.gap{background:var(--gapbg);border-radius:8px;padding-left:22px;padding-right:10px;
+  box-shadow:inset 3px 0 0 var(--gap)}
+.gap::before{background:var(--gap);opacity:1;left:8px}
+.gap strong{color:var(--gap)}
+.tw{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:16px}
+th{text-align:left;font-size:12px;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--ink2);padding:0 10px 8px 0;border-bottom:1px solid var(--line);font-weight:700}
+td{padding:11px 10px 11px 0;border-bottom:1px solid var(--line);vertical-align:top}
+td.day{white-space:nowrap;font-weight:700;padding-right:16px}
+tr:last-child td{border-bottom:0}
+
+.hide{display:none !important}
+.empty{color:var(--ink2);padding:40px 0;text-align:center;font-size:16px}
+footer{color:var(--ink2);font-size:13px;padding:34px 0 0;border-top:1px solid var(--line);margin-top:30px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<button class="theme" id="theme" aria-label="Toggle light or dark">◐</button>
+
+<header>
+  <h1>BBMXGP 2026 ... Announcer Cheat Sheet</h1>
+  <p class="sub">Big Bear MX Grand Prix by O'Neal · Bear Mountain, Big Bear Lake CA · Aug 19–23, 2026</p>
+</header>
+
+<div class="stick">
+  <input id="q" type="search" placeholder="Search riders, sponsors, anything" autocomplete="off" autocorrect="off" spellcheck="false">
+</div>
+
+<nav id="toc"><a href="#event-id"><span class="n">1</span>Event ID</a><a href="#weekend-at-a-glance"><span class="n">2</span>Weekend at a Glance</a><a href="#daily-flow"><span class="n">3</span>Daily Flow</a><a href="#booth-partners"><span class="n">4</span>Booth Partners</a><a href="#pro-entries"><span class="n">5</span>Pro Entries</a><a href="#classes"><span class="n">6</span>Classes</a><a href="#the-track"><span class="n">7</span>The Track</a><a href="#chairlift-and-summit"><span class="n">8</span>Chairlift and Summit</a><a href="#racer-psas"><span class="n">9</span>Racer PSAs</a><a href="#spectator-psas"><span class="n">10</span>Spectator PSAs</a><a href="#off-track"><span class="n">11</span>Off-Track</a><a href="#sponsors"><span class="n">12</span>Sponsors</a><a href="#o-neal"><span class="n">13</span>O'Neal</a><a href="#thank-yous"><span class="n">14</span>Thank Yous</a><a href="#day-one-openers"><span class="n">15</span>Day One Openers</a><a href="#fill-these-in"><span class="n">16</span>Fill These In</a></nav>
+
+<main id="main">
+
+<section id="event-id" data-sec>
+  <h2>Event ID</h2>
+  <ul><li class="row" data-t="big bear mx grand prix by o'neal">Big Bear MX Grand Prix by O'Neal</li><li class="row" data-t="bear mountain resort, 43101 goldmine dr, big bear lake ca">Bear Mountain Resort, 43101 Goldmine Dr, Big Bear Lake CA</li><li class="row" data-t="aug 19–23, 2026. second annual">Aug 19–23, 2026. Second annual</li><li class="row" data-t="hosted by swapmoto race series + big bear mountain resort">Hosted by Swapmoto Race Series + Big Bear Mountain Resort</li><li class="row" data-t="six years of planning between the two">Six years of planning between the two</li><li class="row" data-t="promoters run 23 events a year, 20+ years working together">Promoters run 23 events a year, 20+ years working together</li><li class="row" data-t="site: bbmxgp.com">Site: BBMXGP.com</li><li class="row" data-t="hashtag: #bbmxgp26">Hashtag: #bbmxgp26</li><li class="row" data-t="tagline: "where moto meets the mountain"">Tagline: "Where moto meets the mountain"</li></ul>
+</section>
+
+<section id="weekend-at-a-glance" data-sec>
+  <h2>Weekend at a Glance</h2>
+  <div class="tw"><table><thead><tr><th>Day</th><th>What's happening</th></tr></thead><tbody><tr class="row" data-t="wed 8/19 check-in. kurt caselli golf classic, 9am tee. golfers get vip first laps on the track"><td class="day"><strong>Wed 8/19</strong></td><td>Check-in. Kurt Caselli Golf Classic, 9am tee. Golfers get VIP first laps on the track</td></tr><tr class="row" data-t="thu 8/20 practice all day. brownie lot 7am–3pm. e-mtb race. alpine slide $40 unlimited til 7pm"><td class="day"><strong>Thu 8/20</strong></td><td>Practice all day. Brownie Lot 7am–3pm. e-MTB race. Alpine Slide $40 unlimited til 7pm</td></tr><tr class="row" data-t="fri 8/21 racing. sight laps 8am. after party at wyatt's"><td class="day"><strong>Fri 8/21</strong></td><td>Racing. Sight laps 8am. After party at Wyatt's</td></tr><tr class="row" data-t="sat 8/22 racing. vintage + hooligans. chair 5 running. pro race 2:55. band 5–7pm"><td class="day"><strong>Sat 8/22</strong></td><td>Racing. Vintage + Hooligans. <strong>Chair 5 running.</strong> Pro race 2:55. Band 5–7pm</td></tr><tr class="row" data-t="sun 8/23 racing. kids classes. big bike team 2:00, mini bike team 2:55"><td class="day"><strong>Sun 8/23</strong></td><td>Racing. Kids classes. Big Bike Team 2:00, Mini Bike Team 2:55</td></tr></tbody></table></div>
+</section>
+
+<section id="daily-flow" data-sec>
+  <h2>Daily Flow</h2>
+  <ul><li class="row" data-t="sight laps 8:00 am each race day">Sight laps 8:00 am each race day</li><li class="row" data-t="track maintenance 12:30 pm, then afternoon sight laps">Track maintenance 12:30 pm, then afternoon sight laps</li><li class="row" data-t="morning sight lap covers first half of classes, afternoon covers second half">Morning sight lap covers first half of classes, afternoon covers second half</li><li class="row" data-t="21 races total. 30 / 35 / 40 minute formats">21 races total. 30 / 35 / 40 minute formats</li><li class="row" data-t="sat 2:55 pm · swapmoto live 250 pro + 450 pro, 40 min">Sat 2:55 pm <span class="sep">·</span> Swapmoto Live 250 Pro + 450 Pro, 40 min</li><li class="row" data-t="sun 2:00 big bike team race / 2:55 mini bike team race">Sun 2:00 Big Bike Team Race / 2:55 Mini Bike Team Race</li><li class="row gap" data-t="thursday practice session times: blank, fill in">Thursday practice session times: <strong>BLANK, fill in</strong></li><li class="row gap" data-t="daily running order: blank, fill in">Daily running order: <strong>BLANK, fill in</strong></li></ul>
+</section>
+
+<section id="booth-partners" data-sec>
+  <h2>Booth Partners</h2>
+  <p class="p row" data-t="kenny "taco" bell · co-announcing"><strong>Kenny "Taco" Bell</strong> <span class="sep">·</span> co-announcing</p>
+<ul><li class="row" data-t="pro supercross and arenacross racer who left racing for freestyle in the fmx boom years">Pro Supercross and Arenacross racer who left racing for freestyle in the FMX boom years</li><li class="row" data-t="metal mulisha team rider">Metal Mulisha team rider</li><li class="row" data-t="longtime emcee. monster energy events, international motorcycle show">Longtime emcee. Monster Energy events, International Motorcycle Show</li><li class="row" data-t="@kennytacobell">@kennytacobell</li></ul>
+<p class="lead row" data-t="larry "supermouth" huffman"><strong>Larry "Supermouth" Huffman</strong></p>
+<ul><li class="row" data-t="original voice of supercross. motorcycle hall of fame, 2008">Original Voice of Supercross. Motorcycle Hall of Fame, 2008</li><li class="row" data-t="lived in big bear city, ran his announcing business from there until he passed in 2024">Lived in Big Bear City, ran his announcing business from there until he passed in 2024</li><li class="row" data-t="line: calling a race from the mountain he called home">Line: calling a race from the mountain he called home</li></ul>
+</section>
+
+<section id="pro-entries" data-sec>
+  <h2>Pro Entries</h2>
+  <p class="p row" data-t="$5,000 purse split between 250 and 450, plus payback from entries · grows with the field.">$5,000 purse split between 250 and 450, <strong>plus payback from entries</strong> <span class="sep">·</span> grows with the field.</p>
+<ul><li class="row" data-t="blake baggett · biggest name here. former ama 250 champ, 450 national winner, "el chupacabra." off-road and baja since stepping back from full-time mx"><strong>Blake Baggett</strong> <span class="sep">·</span> biggest name here. Former AMA 250 champ, 450 National winner, "El Chupacabra." Off-road and Baja since stepping back from full-time MX</li><li class="row" data-t="josh mosiman · moto journalist turned racer. runs holdfast media with trevor nelson, covering the weekend. also mosiman's sourdough pantry. filming and racing"><strong>Josh Mosiman</strong> <span class="sep">·</span> moto journalist turned racer. Runs <strong>Holdfast Media</strong> with Trevor Nelson, covering the weekend. Also Mosiman's Sourdough Pantry. Filming and racing</li><li class="row" data-t="brandon rey · rode well here last year on a 500. proved the big bike works on this mountain"><strong>Brandon Rey</strong> <span class="sep">·</span> rode well here last year on a 500. Proved the big bike works on this mountain</li><li class="row" data-t="ryan penhall · known socal off-road name"><strong>Ryan Penhall</strong> <span class="sep">·</span> known SoCal off-road name</li><li class="row gap" data-t="dare demartile · canadian, pro mx background. confirm pronunciation"><strong>Dare DeMartile</strong> <span class="sep">·</span> Canadian, pro MX background. Confirm pronunciation</li><li class="row gap" data-t="carter klein · amateur standout turned pro. confirm current ride"><strong>Carter Klein</strong> <span class="sep">·</span> amateur standout turned pro. Confirm current ride</li><li class="row" data-t="zane roberts · off-road background"><strong>Zane Roberts</strong> <span class="sep">·</span> off-road background</li><li class="row" data-t="cooper abbott"><strong>Cooper Abbott</strong></li><li class="row gap" data-t="colton aeck · confirm pronunciation"><strong>Colton Aeck</strong> <span class="sep">·</span> confirm pronunciation</li><li class="row gap" data-t="kelana humphrey · confirm pronunciation"><strong>Kelana Humphrey</strong> <span class="sep">·</span> confirm pronunciation</li><li class="row" data-t="clayton tucker"><strong>Clayton Tucker</strong></li><li class="row" data-t="jo alvarez"><strong>Jo Alvarez</strong></li></ul>
+<p class="p row" data-t="angle: no two guys in this class came up the same way. mx, off-road, baja, big bores. custom obstacles are the equalizer."><strong>Angle:</strong> no two guys in this class came up the same way. MX, off-road, Baja, big bores. Custom obstacles are the equalizer.</p>
+</section>
+
+<section id="classes" data-sec>
+  <h2>Classes</h2>
+  <p class="p row" data-t="order runs beginner → novice → amateur → expert.">Order runs Beginner → Novice → Amateur → Expert.</p>
+<ul><li class="row" data-t="50cc (max 51cc, no pw or xr)">50cc (max 51cc, no PW or XR)</li><li class="row" data-t="65cc">65cc</li><li class="row" data-t="85cc (max 16" rear, 19" front)">85cc (max 16" rear, 19" front)</li><li class="row" data-t="supermini (max 112cc)">Supermini (max 112cc)</li><li class="row" data-t="125cc">125cc</li><li class="row" data-t="250cc (2-stroke)">250cc (2-stroke)</li><li class="row" data-t="450cc (open cc)">450cc (open cc)</li><li class="row" data-t="vintage: 1975 and earlier">Vintage: 1975 and earlier</li><li class="row" data-t="post vintage: 1975–1995">Post Vintage: 1975–1995</li><li class="row" data-t="harley hooligan · run what you brung, sponsored by rusty butcher"><strong>Harley Hooligan</strong> <span class="sep">·</span> run what you brung, sponsored by Rusty Butcher</li><li class="row" data-t="girls (max 112cc)">Girls (max 112cc)</li><li class="row" data-t="women (125cc and up)">Women (125cc and up)</li><li class="row" data-t="vet 30+ / 40+ / 50+ / 60+ / 70+">Vet 30+ / 40+ / 50+ / 60+ / 70+</li><li class="row" data-t="swapmoto live pro 250 and pro 450">Swapmoto Live Pro 250 and Pro 450</li><li class="row" data-t="sunday team races · relay format, riders swap after one lap. mini and big bike">Sunday Team Races <span class="sep">·</span> relay format, riders swap after one lap. Mini and Big Bike</li></ul>
+<p class="lead row" data-t="notes"><strong>Notes</strong></p>
+<ul><li class="row" data-t="vet riders entering a younger class may drop one skill level. race director has final say">Vet riders entering a younger class may drop one skill level. Race director has final say</li><li class="row" data-t="50cc and 65cc run an abbreviated course with shorter overall time (fuel and safety)">50cc and 65cc run an abbreviated course with shorter overall time (fuel and safety)</li><li class="row" data-t="everything sold out except the two pro classes. no walk-up registration">Everything sold out except the two pro classes. No walk-up registration</li></ul>
+</section>
+
+<section id="the-track" data-sec>
+  <h2>The Track</h2>
+  <ul><li class="row" data-t="roughly 3 miles. ski runs and fire roads. near 8,000 ft">Roughly 3 miles. Ski runs and fire roads. Near 8,000 ft</li><li class="row" data-t="mx section with jumps and berms. finish line jump under an sx-style overhead truss">MX section with jumps and berms. Finish line jump under an SX-style overhead truss</li><li class="row" data-t="fout's forest · singletrack section, longer this year. built by mxa test rider fout (@atchafout), named for him"><strong>Fout's Forest</strong> <span class="sep">·</span> singletrack section, longer this year. Built by MXA test rider Fout (@atchafout), named for him</li><li class="row" data-t="new for 2026: shipping container jump in the base area, slowed-down start, faster sections, built-up berms, pro-only section designed for viewing">New for 2026: shipping container jump in the base area, slowed-down start, faster sections, built-up berms, pro-only section designed for viewing</li><li class="row" data-t="snowmaking equipment every 100 ft waters the course. dust stays down">Snowmaking equipment every 100 ft waters the course. Dust stays down</li><li class="row" data-t="steep and abrupt elevation. there are rocks. promoters warned riders directly">Steep and abrupt elevation. <strong>There are rocks.</strong> Promoters warned riders directly</li><li class="row" data-t="this is an off-road race, not an mx race. skid plates and mousse or heavy-duty tubes recommended">This is an off-road race, not an MX race. Skid plates and mousse or heavy-duty tubes recommended</li></ul>
+</section>
+
+<section id="chairlift-and-summit" data-sec>
+  <h2>Chairlift and Summit</h2>
+  <p class="p row" data-t="saturday only. free with facility wristband.">Saturday only. Free with facility wristband.</p>
+<ul><li class="row" data-t="chair 5. mountain waiver required"><strong>Chair 5.</strong> Mountain waiver required</li><li class="row" data-t="riding up you're looking straight down at the course">Riding up you're looking straight down at the course</li><li class="row" data-t="short walk down to a set viewing area">Short walk down to a set viewing area</li><li class="row" data-t="bc goggle co bringing shade and seating"><strong>BC Goggle Co bringing shade and seating</strong></li><li class="row" data-t="light food, beverage, bathrooms up top">Light food, beverage, bathrooms up top</li><li class="row" data-t="shuttle back to the lift, or walk if there's a line">Shuttle back to the lift, or walk if there's a line</li><li class="row" data-t="no walking down the mountain. everyone rides the chair down"><strong>No walking down the mountain.</strong> Everyone rides the chair down</li><li class="row" data-t="stay inside marked areas. wander into the forest or ski runs and the wristband gets revoked, no refund">Stay inside marked areas. Wander into the forest or ski runs and the wristband gets revoked, no refund</li></ul>
+</section>
+
+<section id="racer-psas" data-sec>
+  <h2>Racer PSAs</h2>
+  <ul><li class="row" data-t="return your rented transponder sunday. mylaps tr2. not returned = $299 charge. bring the clip back for $5 credit"><strong>Return your rented transponder Sunday.</strong> MyLaps TR2. Not returned = $299 charge. Bring the clip back for $5 credit</li><li class="row" data-t="no mid-race refueling"><strong>No mid-race refueling</strong></li><li class="row" data-t="no engine work in the pit area. nothing touching the asphalt"><strong>No engine work in the pit area.</strong> Nothing touching the asphalt</li><li class="row" data-t="tires and basic maintenance: the racers edge (vending thu–sun) and emt racing">Tires and basic maintenance: <strong>The Racers Edge</strong> (vending Thu–Sun) and <strong>EMT Racing</strong></li><li class="row" data-t="no trailers or rvs in the pit area">No trailers or RVs in the pit area</li><li class="row" data-t="each racer vehicle has room behind it for a 10x10 tent. load multiple bikes per vehicle">Each racer vehicle has room behind it for a 10x10 tent. Load multiple bikes per vehicle</li><li class="row" data-t="leave your practice space when you're done so the next group can pit">Leave your practice space when you're done so the next group can pit</li><li class="row" data-t="waivers must be signed for both the event and the resort">Waivers must be signed for both the event and the resort</li></ul>
+</section>
+
+<section id="spectator-psas" data-sec>
+  <h2>Spectator PSAs</h2>
+  <ul><li class="row" data-t="check in at the brownie lot for passes before heading up the mountain"><strong>Check in at the Brownie Lot</strong> for passes before heading up the mountain</li><li class="row" data-t="facility wristband required, everyone over 5, racers included. no band no entry">Facility wristband required, everyone over 5, racers included. No band no entry</li><li class="row" data-t="wristband $25. spectator parking $20, moonridge lot, free shuttle to the venue">Wristband $25. Spectator parking $20, Moonridge Lot, free shuttle to the venue</li><li class="row" data-t="free big bear trolley also runs">Free Big Bear Trolley also runs</li><li class="row" data-t="no pets, mountain bikes or e-bikes on the deck"><strong>No pets, mountain bikes or e-bikes on the deck</strong></li><li class="row" data-t="no overnight parking on site">No overnight parking on site</li><li class="row" data-t="merch sold out early last year. buy it early">Merch sold out early last year. Buy it early</li><li class="row" data-t="20+ vendors and sponsors on the row">20+ vendors and sponsors on the row</li><li class="row" data-t="we're guests in this town. patience with staff and locals. don't leave trash">We're guests in this town. Patience with staff and locals. Don't leave trash</li></ul>
+</section>
+
+<section id="off-track" data-sec>
+  <h2>Off-Track</h2>
+  <ul><li class="row" data-t="wed · kurt caselli golf classic. 9am tee, 60 golfers max. includes 18 holes, lunch, contests, awards, vip first-look practice laps on the course. proceeds fund off-road rider safety and scholarships"><strong>Wed</strong> <span class="sep">·</span> Kurt Caselli Golf Classic. 9am tee, 60 golfers max. Includes 18 holes, lunch, contests, awards, VIP first-look practice laps on the course. Proceeds fund off-road rider safety and scholarships</li><li class="row" data-t="thu (or fri) · whiskey throttle media "one lap, no crap" e-mtb race. full course. class 2 e-bikes only, no throttles. free entry, sold out"><strong>Thu (or Fri)</strong> <span class="sep">·</span> Whiskey Throttle Media "One Lap, No Crap" e-MTB race. Full course. Class 2 e-bikes only, no throttles. Free entry, sold out</li><li class="row" data-t="thu · alpine slide at magic mountain. $40 unlimited with wristband, open til 7pm. covers the slide, mineshaft coaster, soaring eagle, go-carts, mini golf. in town, not on the mountain"><strong>Thu</strong> <span class="sep">·</span> Alpine Slide at Magic Mountain. $40 unlimited with wristband, open til 7pm. Covers the slide, Mineshaft Coaster, Soaring Eagle, go-carts, mini golf. In town, not on the mountain</li><li class="row" data-t="fri · after party at wyatt's sports bar. bench racing, food, live whiskey throttle podcast with industry guests, pro moto replays on the screens. listed 4–10pm"><strong>Fri</strong> <span class="sep">·</span> After party at Wyatt's Sports Bar. Bench racing, food, live Whiskey Throttle podcast with industry guests, pro moto replays on the screens. Listed 4–10pm</li><li class="row" data-t="sat · live band "those guys" on the podium after the pro race, 5–7pm. they're riders. bars and food stay open later saturday"><strong>Sat</strong> <span class="sep">·</span> Live band <strong>"Those Guys"</strong> on the podium after the pro race, 5–7pm. They're riders. Bars and food stay open later Saturday</li><li class="row" data-t="fri–sun 9am–3pm · stacyc demo area for the little rippers"><strong>Fri–Sun 9am–3pm</strong> <span class="sep">·</span> STACYC demo area for the Little Rippers</li></ul>
+</section>
+
+<section id="sponsors" data-sec>
+  <h2>Sponsors</h2>
+  <ul><li class="row" data-t="o'neal · title sponsor. see below"><strong>O'Neal</strong> <span class="sep">·</span> title sponsor. See below</li><li class="row" data-t="visit big bear · town tourism board. lodging, dining, things to do"><strong>Visit Big Bear</strong> <span class="sep">·</span> town tourism board. Lodging, dining, things to do</li><li class="row" data-t="big bear mountain resort · host venue. parent of bear mountain and snow summit"><strong>Big Bear Mountain Resort</strong> <span class="sep">·</span> host venue. Parent of Bear Mountain and Snow Summit</li><li class="row" data-t="guts racing · seats, seat covers, seat foam. ventura ca"><strong>Guts Racing</strong> <span class="sep">·</span> seats, seat covers, seat foam. Ventura CA</li><li class="row" data-t="quinn company · caterpillar dealer. heavy equipment. "quinn company, your cat dealer""><strong>Quinn Company</strong> <span class="sep">·</span> Caterpillar dealer. Heavy equipment. "Quinn Company, your Cat dealer"</li><li class="row" data-t="mother f foods · whole food meal bars. founded by dr. cheryl bothwell, doctor of clinical nutrition and registered dietitian, 20+ years treating patients. organic honey sweetened, no fillers, 97 grams so nearly double a normal bar"><strong>Mother F Foods</strong> <span class="sep">·</span> whole food meal bars. Founded by <strong>Dr. Cheryl Bothwell</strong>, doctor of clinical nutrition and registered dietitian, 20+ years treating patients. Organic honey sweetened, no fillers, 97 grams so nearly double a normal bar</li><li class="row" data-t="airoh usa · italian helmet brand"><strong>Airoh USA</strong> <span class="sep">·</span> Italian helmet brand</li><li class="row" data-t="arc levers · unbreakable folding clutch and brake levers. say "a-r-c""><strong>ARC Levers</strong> <span class="sep">·</span> unbreakable folding clutch and brake levers. Say "A-R-C"</li><li class="row" data-t="bc goggle co · owned by brinley carmody, a 10-year-old girl. "building the future, one rider at a time." bc supermag magnetic interchangeable lens system, swap lenses instantly without removing the goggle. moto, mtb and snow. also polarized sunglasses, chains, custom graphic lenses you design yourself, apparel. bringing shade and seating to the top of the mountain saturday"><strong>BC Goggle Co</strong> <span class="sep">·</span> owned by <strong>Brinley Carmody</strong>, a 10-year-old girl. "Building the Future, One Rider at a Time." <strong>BC SuperMag</strong> magnetic interchangeable lens system, swap lenses instantly without removing the goggle. Moto, MTB and snow. Also polarized sunglasses, chains, custom graphic lenses you design yourself, apparel. <strong>Bringing shade and seating to the top of the mountain Saturday</strong></li><li class="row" data-t="kawasaki usa · loaned ridge utvs to the build crew. a/c and closed cab, made getting up and down the mountain possible"><strong>Kawasaki USA</strong> <span class="sep">·</span> loaned <strong>Ridge UTVs</strong> to the build crew. A/C and closed cab, made getting up and down the mountain possible</li><li class="row" data-t="rusty butcher · moto lifestyle apparel. sponsoring the hooligan class"><strong>Rusty Butcher</strong> <span class="sep">·</span> moto lifestyle apparel. Sponsoring the Hooligan class</li><li class="row" data-t="whiskey throttle media · podcast and media. running the e-mtb race and the friday night live show at wyatt's"><strong>Whiskey Throttle Media</strong> <span class="sep">·</span> podcast and media. Running the e-MTB race and the Friday night live show at Wyatt's</li><li class="row" data-t="team srd · track crew building and dialing the course"><strong>Team SRD</strong> <span class="sep">·</span> track crew building and dialing the course</li><li class="row" data-t="swapmoto live · event host, moto media platform. donn maeda, editor"><strong>Swapmoto Live</strong> <span class="sep">·</span> event host, moto media platform. Donn Maeda, editor</li><li class="row" data-t="kurt caselli foundation · off-road rider safety. course markers, flags, safety supplies, the high-vis vests on track crew"><strong>Kurt Caselli Foundation</strong> <span class="sep">·</span> off-road rider safety. Course markers, flags, safety supplies, the high-vis vests on track crew</li><li class="row" data-t="the racers edge · vending thu–sun. tire changing, pre-orders for delivery to the races"><strong>The Racers Edge</strong> <span class="sep">·</span> vending Thu–Sun. Tire changing, pre-orders for delivery to the races</li><li class="row" data-t="holdfast media · josh mosiman and trevor nelson, covering the weekend on ig and youtube"><strong>Holdfast Media</strong> <span class="sep">·</span> Josh Mosiman and Trevor Nelson, covering the weekend on IG and YouTube</li><li class="row" data-t="stacyc · electric balance bikes for kids. free demo fri–sun"><strong>STACYC</strong> <span class="sep">·</span> electric balance bikes for kids. Free demo Fri–Sun</li><li class="row" data-t="alpine slide at magic mountain · in town. $40 unlimited with wristband"><strong>Alpine Slide at Magic Mountain</strong> <span class="sep">·</span> in town. $40 unlimited with wristband</li><li class="row" data-t="wyatt's · friday after party"><strong>Wyatt's</strong> <span class="sep">·</span> Friday after party</li><li class="row" data-t="motocross action magazine · media"><strong>Motocross Action Magazine</strong> <span class="sep">·</span> media</li></ul>
+</section>
+
+<section id="o-neal" data-sec>
+  <h2>O'Neal</h2>
+  <p class="p row" data-t="oldest motocross apparel company in america. jim o'neal was racing tts and desert in the early '60s and got fed up with gear that couldn't survive the sport. in 1970 he modified a bakery delivery van and started selling parts and apparel out of it at socal races. that van was the first office and the first warehouse. fifty-five years later the office sits a few miles from the old hopetown track where it started. jim still rides, still races baja, and holds the most class wins in baja history.">Oldest motocross apparel company in America. Jim O'Neal was racing TTs and desert in the early '60s and got fed up with gear that couldn't survive the sport. In 1970 he modified a bakery delivery van and started selling parts and apparel out of it at SoCal races. That van was the first office and the first warehouse. Fifty-five years later the office sits a few miles from the old Hopetown track where it started. Jim still rides, still races Baja, and holds the most class wins in Baja history.</p>
+<ul><li class="row" data-t="products: helmets, jerseys, pants, boots, gloves, goggles, protection. moto, mtb, adventure">Products: helmets, jerseys, pants, boots, gloves, goggles, protection. Moto, MTB, adventure</li><li class="row" data-t="free custom-printed hat booth · multiple colors, multiple logos. one of the most popular stops on the row"><strong>Free custom-printed hat booth</strong> <span class="sep">·</span> multiple colors, multiple logos. One of the most popular stops on the row</li><li class="row" data-t="mtb side: greg minnaar, most successful downhill racer ever, has been on o'neal for years">MTB side: <strong>Greg Minnaar</strong>, most successful downhill racer ever, has been on O'Neal for years</li><li class="row gap" data-t="confirm current moto rider roster with the rep on site">Confirm current moto rider roster with the rep on site</li></ul>
+</section>
+
+<section id="thank-yous" data-sec>
+  <h2>Thank Yous</h2>
+  <ul><li class="row" data-t="the nielsens · hosting the booth out of their office. he's racing. thank them early and often"><strong>The Nielsens</strong> <span class="sep">·</span> hosting the booth out of their office. He's racing. Thank them early and often</li><li class="row" data-t="team srd track crew · building and dialing the course all week"><strong>Team SRD track crew</strong> <span class="sep">·</span> building and dialing the course all week</li><li class="row" data-t="fout · built fout's forest"><strong>Fout</strong> <span class="sep">·</span> built Fout's Forest</li><li class="row" data-t="aaron cooke · swapmoto race series"><strong>Aaron Cooke</strong> <span class="sep">·</span> Swapmoto Race Series</li><li class="row" data-t="donn maeda · swapmoto live"><strong>Donn Maeda</strong> <span class="sep">·</span> Swapmoto Live</li><li class="row" data-t="kurt caselli foundation · say the full name, never the initials"><strong>Kurt Caselli Foundation</strong> <span class="sep">·</span> say the full name, never the initials</li><li class="row" data-t="bear mountain resort staff · the mountain crew making it happen"><strong>Bear Mountain Resort staff</strong> <span class="sep">·</span> the mountain crew making it happen</li><li class="row" data-t="those guys · saturday band, they're riders"><strong>Those Guys</strong> <span class="sep">·</span> Saturday band, they're riders</li><li class="row" data-t="everyone working on the mountain">Everyone working on the mountain</li></ul>
+</section>
+
+<section id="day-one-openers" data-sec>
+  <h2>Day One Openers</h2>
+  <ul><li class="row gap" data-t="riders meeting (confirm permission first)">Riders meeting (confirm permission first)</li><li class="row" data-t="national anthem">National anthem</li></ul>
+</section>
+
+<section id="fill-these-in" data-sec>
+  <h2>Fill These In</h2>
+  <ul><li class="row gap" data-t="thursday practice session times">Thursday practice session times</li><li class="row gap" data-t="daily running order with class times">Daily running order with class times</li><li class="row gap" data-t="lap times · pull live off timing, nothing published">Lap times <span class="sep">·</span> pull live off timing, nothing published</li><li class="row gap" data-t="live timing site">Live timing site</li><li class="row gap" data-t="e-mtb race day · thursday or friday">e-MTB race day <span class="sep">·</span> Thursday or Friday</li><li class="row gap" data-t="confirm emt racing on site">Confirm EMT Racing on site</li><li class="row gap" data-t="awards and podium times">Awards and podium times</li><li class="row gap" data-t="airoh pronunciation">Airoh pronunciation</li><li class="row gap" data-t="rider pronunciations: aeck, kelana, demartile">Rider pronunciations: Aeck, Kelana, DeMartile</li></ul>
+</section>
+<p class="empty hide" id="empty">Nothing matches.</p>
+</main>
+
+<footer>Source: <code>bbmxgp-2026-announcer-sheet.md</code>. Amber lines still need an answer.</footer>
+</div>
+
+<script>
+(function(){
+  var root=document.documentElement, tbtn=document.getElementById('theme');
+  var saved=localStorage.getItem('theme'); if(saved) root.setAttribute('data-theme',saved);
+  tbtn.onclick=function(){
+    var next=root.getAttribute('data-theme')==='dark'?'light':'dark';
+    root.setAttribute('data-theme',next); localStorage.setItem('theme',next);
+    document.querySelector('meta[name=theme-color]').content = next==='dark'?'#101010':'#f7f5f1';
+  };
+
+  var q=document.getElementById('q'), toc=document.getElementById('toc');
+  var rows=[].slice.call(document.querySelectorAll('.row'));
+  var secs=[].slice.call(document.querySelectorAll('[data-sec]'));
+  var empty=document.getElementById('empty');
+
+  q.addEventListener('input',function(){
+    var t=q.value.trim().toLowerCase(), any=false;
+    rows.forEach(function(r){
+      var ok=!t||r.dataset.t.indexOf(t)>-1;
+      r.classList.toggle('hide',!ok); if(ok) any=true;
+    });
+    secs.forEach(function(s){
+      s.classList.toggle('hide', !!t && s.querySelectorAll('.row:not(.hide)').length===0);
+    });
+    toc.classList.toggle('hide',!!t);
+    empty.classList.toggle('hide',any||!t);
+  });
+})();
+</script>
+</body>
+</html>
