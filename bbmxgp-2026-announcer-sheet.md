@@ -231,7 +231,7 @@ Oldest motocross apparel company in America. Jim O'Neal was racing TTs and deser
 
 ## Thank Yous
 
-- **The Nielsens** ... hosting the booth out of their office. He's racing. Thank them early and often
+- **The Nielsens, Dan and Heidi** ... we're announcing out of Dan's office. Dan's racing. Thank them early and often
 - **Team SRD track crew** ... building and dialing the course all week
 - **Josh Fout** ... built Fout's Forest
 - **Aaron Cooke** ... Swapmoto Race Series
