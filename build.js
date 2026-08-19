@@ -203,7 +203,7 @@ html[data-theme="dark"] .km{display:block}
 }
 
 /* ---- content ---- */
-section{padding:30px 0 4px;border-top:1px solid var(--line);scroll-margin-top:96px}
+section{padding:30px 0 4px;border-top:1px solid var(--line);scroll-margin-top:72px}
 section:first-of-type{border-top:0}
 h2{font-size:13px;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);
   margin:0 0 14px;font-weight:800}
