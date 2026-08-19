@@ -92,7 +92,7 @@ $5,000 purse split between 250 and 450, **plus payback from entries** ... grows 
 - **Zane Roberts** ... off-road background
 - **Cooper Abbott**
 - **Colton Aeck** ... confirm pronunciation
-- **Kelana Humphrey** ... confirm pronunciation
+- **Kelana Humphrey**
 - **Clayton Tucker**
 - **Jo Alvarez**
 
@@ -259,5 +259,4 @@ Oldest motocross apparel company in America. Jim O'Neal was racing TTs and deser
 - [ ] e-MTB race day ... Thursday or Friday
 - [ ] Confirm EMT Racing on site
 - [ ] Awards and podium times
-- [ ] Airoh pronunciation
-- [ ] Rider pronunciations: Aeck, Kelana, DeMartile
+- [ ] Rider pronunciations: Aeck, DeMartile
